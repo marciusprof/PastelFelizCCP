@@ -1,0 +1,59 @@
+body{
+    color: rgb(255, 0, 0);
+    background: green;
+    margin: 0px;
+    font-family: "Tiny5", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 3px rgb(255, 0, 0);
+    padding: 20px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.chamada {
+    background: yellowgreen;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 5%px;
+}
+h1 {
+    font-size: 70px;
+    margin: 5%;
+}
+p {
+    font-size: 60px;
+    color: orange;
+    margin: 5%;
+}
+img {
+    height: 400px;
+}
+.categoria-pasteis {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-pasteis img {
+    opacity: 0,1;
+}
+.categoria-pasteis img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+h2 {
+    font-size: 50px;
+}
